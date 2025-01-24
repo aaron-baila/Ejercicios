@@ -15,6 +15,7 @@ public class MoverCeros {
                 Introduce una lista de elementos separados por espacios:
                 Ejemplo: moveZeros([false,1,0,1,2,0,1,3,"a"])""");
         String texto = entrada.nextLine();
+         texto = entrada.nextLine();
 
         // Separamos los miembros del array mediante espacios
         String[] listaDeEntrada = texto.split(" ");
