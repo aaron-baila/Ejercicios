@@ -34,7 +34,7 @@ public class CalculoImc {
                 if (peso == 0) {
                     continuar = false;
                 }
-                System.out.print("Ingrese altura y presione enter:");
+                System.out.println("Ingrese altura y presione enter:");
                 int altura = entrada.nextInt();
                 if (altura == 0) {
                     continuar = false;
